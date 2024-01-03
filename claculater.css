@@ -1,0 +1,184 @@
+
+        body{
+            background-color: #424242;
+            font-family: Tahoma ;
+        }
+        #box{
+           
+            width: 280px;
+            padding: 8px 8px 20px 8px ;
+            margin: 20px auto;
+            background-color: #ababab;
+            border-radius: 4px;
+            border-top: 2px solid #fff;
+            border-right: 2px solid #fff;
+            border-bottom: 2px solid #c1c1c1;
+            border-left: 2px solid #c1c1c1;
+            box-shadow: -3px 3px 7px rgba(0,0,0,.6),inset -100px 0px 100px rgba(255,255,255,.5);
+        }
+        #txt{
+           
+            display: block;
+            margin: 15px auto;
+            height: 42px;
+            width: 240px;
+            padding: 0 10px;
+            border-radius: 4px;
+            border-top: 2px solid #c1c1c1;
+            border-right: 2px solid #c1c1c1;
+            border-bottom: 2px solid #fff;
+            background-color: #fff;
+            box-shadow: inset 0px 0px 10px #030303,inset 0px -20px 1px rgba(150,150,150,.2);
+            font-size: 30px;
+            color: #666;
+            text-align: right;
+            font-weight: 400;
+
+        }
+
+        button
+        {
+            background-color: aqua;
+            color: black;
+            font-weight: bold;
+            font-size: 20px;
+            width: 42px;
+            height: 42px;
+            margin: 10px; 
+            display: inline-block;
+            border-radius: 4px;
+
+
+        }
+        #btnper{
+            margin: 10px;
+            color: #fff;
+            text-shadow: -1px -1px 0px #44006f;
+            background-color: #434343;
+            border-top: 2px solid #c1c1c1;
+            border-bottom: 2px solid #181818;
+            border-left: 2px solid #181818;
+            box-shadow: 0px 0px 2px #030303,inset 0px -20px 1px #2e2e2e;
+        }
+        .AC{
+            
+            color: #fff;
+            text-shadow: -1px -1px 0px #44006f;
+            background-color: #d20000;
+            border-top: 2px solid #ff8484;
+            border-right:2px solid #ff8484 ;
+            border-bottom: 2px solid #800000;
+            border-left: 2px solid #800000;
+            box-shadow: 0px 0px 2px #030303,inset 0px -20px 1px #b00000;
+        }
+        .DL{
+            margin: 10px;
+            color: #fff;
+            text-shadow: -1px -1px 0px #44006f;
+            background-color: #434343;
+            border-top: 2px solid #c1c1c1;
+            border-bottom: 2px solid #181818;
+            border-left: 2px solid #181818;
+            box-shadow: 0px 0px 2px #030303,inset 0px -20px 1px #2e2e2e;
+        }
+        #btnplus{
+            margin: 10px;
+            color: #fff;
+            text-shadow: -1px -1px 0px #44006f;
+            background-color: #434343;
+            border-top: 2px solid #c1c1c1;
+            border-bottom: 2px solid #181818;
+            border-left: 2px solid #181818;
+            box-shadow: 0px 0px 2px #030303,inset 0px -20px 1px #2e2e2e;
+        }
+        #btnmin{
+            margin: 10px;
+            color: #fff;
+            text-shadow: -1px -1px 0px #44006f;
+            background-color: #434343;
+            border-top: 2px solid #c1c1c1;
+            border-bottom: 2px solid #181818;
+            border-left: 2px solid #181818;
+            box-shadow: 0px 0px 2px #030303,inset 0px -20px 1px #2e2e2e;
+        }
+        #btninto{
+            margin: 10px;
+            color: #fff;
+            text-shadow: -1px -1px 0px #44006f;
+            background-color: #434343;
+            border-top: 2px solid #c1c1c1;
+            border-bottom: 2px solid #181818;
+            border-left: 2px solid #181818;
+            box-shadow: 0px 0px 2px #030303,inset 0px -20px 1px #2e2e2e;
+        }
+        #btndivi{
+            margin: 10px;
+            color: #fff;
+            text-shadow: -1px -1px 0px #44006f;
+            background-color: #434343;
+            border-top: 2px solid #c1c1c1;
+            border-bottom: 2px solid #181818;
+            border-left: 2px solid #181818;
+            box-shadow: 0px 0px 2px #030303,inset 0px -20px 1px #2e2e2e;
+        }
+        .eql{
+            margin: 10px;
+            color: #fff;
+            text-shadow: -1px -1px 0px #44006f;
+            background-color: #434343;
+            border-top: 2px solid #c1c1c1;
+            border-bottom: 2px solid #181818;
+            border-left: 2px solid #181818;
+            box-shadow: 0px 0px 2px #030303,inset 0px -20px 1px #2e2e2e;
+        }
+        #btndot{
+            margin: 10px;
+            color: #fff;
+            text-shadow: -1px -1px 0px #44006f;
+            background-color: #434343;
+            border-top: 2px solid #c1c1c1;
+            border-bottom: 2px solid #181818;
+            border-left: 2px solid #181818;
+            box-shadow: 0px 0px 2px #030303,inset 0px -20px 1px #2e2e2e;
+        }
+        .digit{
+            color: #181818;
+            text-shadow: 1px 1px 0px #fff;
+            background-color: #ebebeb;
+            border-top: 2px solid #fff;
+            border-bottom: 2px solid #c1c1c1;
+            border-left: 2px solid #c1c1c1;
+            border-radius: 4px;
+            box-shadow: 0px 0px 2px #030303,inset 0px -20px 1px #dcdcdc;
+        }
+        .digit:hover,
+        #btnmin:hover,
+        #btninto:hover,
+        #btnplus:hover,
+        #btndivi:hover,
+        #btnper:hover,
+        #btndot:hover,
+        .eql:hover,
+        .AC:hover,
+        .logo:hover,
+        .DL:hover{
+            background-color: #ffba75;
+            box-shadow: 0px 0px 2px #ffba75,inset 0px -20px 1px #ff8000;
+            border-top: 2px solid #fff;
+            border-right: 2px solid #fff;
+            border-bottom: 2px solid #ae5700;
+            border-left: 2px solid #ae5700;
+        }
+        .logo{
+            margin: 10px;
+            color: #fff;
+            text-shadow: -1px -1px 0px #44006f;
+            background-color: #434343;
+            border-top: 2px solid #c1c1c1;
+            border-bottom: 2px solid #181818;
+            border-left: 2px solid #181818;
+            box-shadow: 0px 0px 2px #030303,inset 0px -20px 1px #2e2e2e;
+            font-size: 10px;
+        }
+
+    

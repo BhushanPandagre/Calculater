@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculater</title>
+    <link rel="stylesheet" href="claculater.css">
+    
+    
+</head>
+<body>
+    <div id="box">
+        <input type="text" id="txt">
+        <button  class="AC" onclick="document.getElementById('txt').value=''">AC</button>
+        <button class="DL" onclick="mydel();">DL</button>
+        <button onclick="document.getElementById('txt').value+=document.getElementById('btnper').value" value="%" id="btnper">%</button>
+        <button onclick="document.getElementById('txt').value+=document.getElementById('btnplus').value" value="+" id="btnplus">+</button>
+
+        <button class="logo" onclick="sin()">sin</button>
+        <button class="logo" onclick="pi()">pi</button>
+        <button class="logo" onclick="cos()">cos</button>
+        <button class="logo" onclick="log()">log</button>
+        <button class="logo" onclick="tan()">tan</button>
+        <button class="logo" onclick="sqrt()">sqrt</button>
+        <button class="logo" onclick="pow()">x^</button>
+        <button class="logo" onclick="fact()">x!</button>
+        <button  class="digit"onclick="document.getElementById('txt').value+=document.getElementById('btn1').value" value="1" id="btn1">1</button>
+        <button  class="digit"onclick="document.getElementById('txt').value+=document.getElementById('btn2').value" value="2" id="btn2">2</button>
+        <button  class="digit"onclick="document.getElementById('txt').value+=document.getElementById('btn3').value" value="3" id="btn3">3</button>
+        <button onclick="document.getElementById('txt').value+=document.getElementById('btnmin').value" value="-" id="btnmin">-</button>
+        <button  class="digit"onclick="document.getElementById('txt').value+=document.getElementById('btn4').value" value="4" id="btn4">4</button>
+        <button  class="digit"onclick="document.getElementById('txt').value+=document.getElementById('btn5').value" value="5" id="btn5">5</button>
+        <button  class="digit"onclick="document.getElementById('txt').value+=document.getElementById('btn6').value" value="6" id="btn6">6</button>
+        <button onclick="document.getElementById('txt').value+=document.getElementById('btninto').value" value="*" id="btninto">*</button>
+        <button  class="digit"onclick="document.getElementById('txt').value+=document.getElementById('btn7').value" value="7" id="btn7">7</button>
+        <button  class="digit"onclick="document.getElementById('txt').value+=document.getElementById('btn8').value" value="8" id="btn8">8</button>
+        <button  class="digit"onclick="document.getElementById('txt').value+=document.getElementById('btn9').value" value="9" id="btn9">9</button>
+        <button onclick="document.getElementById('txt').value+=document.getElementById('btndivi').value" value="/" id="btndivi">/</button>
+        <button  class="digit"onclick="document.getElementById('txt').value+=document.getElementById('btn00').value" value="00" id="btn00">00</button>
+        <button  class="digit"onclick="document.getElementById('txt').value+=document.getElementById('btn0').value" value="0" id="btn0">0</button>
+        <button onclick="document.getElementById('txt').value+=document.getElementById('btndot').value" value="." id="btndot">.</button>
+        <button  class="eql" onclick="document.getElementById('txt').value=eval(document.getElementById('txt').value)" >=</button>
+       
+    </div>
+    <script src="claculater.js"></script>
+    <script src="cal1.js"></script>
+    <script src="cal2.js"></script>
+</body>
+</html>
